@@ -2,4 +2,4 @@
 builder = "DOCKERFILE"
 
 [deploy]
-startCommand = "frankenphp php-server --listen :$PORT --root public"
+startCommand = "frankenphp php-server --listen :8080 --root public"
